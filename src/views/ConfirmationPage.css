@@ -1,0 +1,64 @@
+.main-cont{
+    background-color: #CE2829;
+    height: 100vh;
+}
+.texts span{
+    font-family: "Satisfy";
+    font-size: 1.5rem;
+    color: #FDC913;
+}
+.texts{
+    font-family: "Barlow";
+    font-size: 4rem;
+    margin: 0 auto;
+    text-align: center;
+    color:#FAF7F2;
+}
+
+hr{
+    color:#FAF7F2;
+}
+.order-content, .total-summarys, .secim-summarys{
+    color:#FAF7F2;
+}
+.order-detailss{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    margin:0 auto;
+    height: 69vh;
+    padding-top: 5rem;
+}
+.order-content h4{
+    text-align: center;
+    margin: 2rem auto 3rem auto;
+    display:block;
+}
+.secim-summarys, .total-summarys{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 1rem;
+}
+.total-prices{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top:7rem;
+    width: 30%;
+}
+.total-summarys{
+    padding-bottom: 1rem;
+}
+.head{
+    height: 5vh;
+    padding: 0 auto;
+    font-family: "Londrina Solid";
+    text-align: center;
+    background-color: #CE2829;
+    color:#FAF7F2;
+    margin-bottom: 0;
+  }
+  .order-content{
+    width: 30%;
+  }

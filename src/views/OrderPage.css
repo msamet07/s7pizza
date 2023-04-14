@@ -1,0 +1,50 @@
+.main-container{
+    display:inline-block;
+    flex-direction: column;
+    align-items: center;
+}
+.order-form{
+    align-items: center;
+    text-align:left;
+}
+.nav-menu {
+    display:flex;
+    justify-content: center;
+ }
+ .nav-menu > a{
+    text-decoration: none;
+    color: #5F5F5F;
+    padding: 2.5rem 2rem;
+ }
+ .nav-menu > a:last-child{
+   text-decoration: none;
+   color: #CE2829;
+   padding: 2.5rem 2rem;
+}
+ .nav-menu > a:hover{
+    text-decoration: none;
+    color: #CE2829;
+ }
+ .beige-rectangle{
+    display: flex;
+    flex-direction: column;
+    background-color: #FAF7F2;
+    align-content: center;
+    height: 30vh;
+    position: relative;
+    width:99vw;
+ }
+ .head-img{
+    margin: 0 auto;
+ }
+ .head{
+   height: 5vh;
+   padding: 0 auto;
+   font-family: "Londrina Solid";
+   text-align: center;
+   background-color: #CE2829;
+   color:#FAF7F2;
+   margin-bottom: 0;
+   width:100%;
+ }
+ 
